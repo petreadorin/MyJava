@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2144c59-1780-474d-b4f8-281c543adeec" name="Default Changelist" comment="First Upload">
+      <change afterPath="$PROJECT_DIR$/problems/CircleMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Fibbonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/multipleClasses/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/multipleClasses/Error.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/multipleClasses/ErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/multipleClasses/ErrorInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/multipleClasses/ErrorInfoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/multipleClasses/ErrorInfoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basic/classes/multipleClasses/Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basic/classes/multipleClasses/Error.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basic/classes/multipleClasses/ErrorInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basic/classes/multipleClasses/ErrorInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basic/classes/multipleClasses/ErrorInfoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basic/classes/multipleClasses/ErrorInfoMain.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nTVigflE1Cg61FHyhe8eOXl4iK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.Fibbonacci">
+    <configuration name="ErrorInfoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.multipleClasses.ErrorInfoMain" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.multipleClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibbonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Fibbonacci" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibbonacciMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.examples.FibbonacciMain" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.FizzBuzz" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.PrimeNumbers" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Fibbonacci" />
+        <item itemvalue="Application.FibbonacciMain" />
+        <item itemvalue="Application.FizzBuzz" />
+        <item itemvalue="Application.ErrorInfoMain" />
+        <item itemvalue="Application.PrimeNumbers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2144c59-1780-474d-b4f8-281c543adeec" name="Default Changelist" comment="" />
+      <created>1611414195924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611414195924</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Upload">
+      <created>1611414439180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611414439180</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Upload">
+      <created>1611565750828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611565750828</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First Upload">
+      <created>1611569567448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611569567448</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Upload">
+      <created>1611570438915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611570438915</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First Upload">
+      <created>1611570472924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611570472924</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Upload" />
+  </component>
+</project>
