@@ -2,7 +2,7 @@ package problems;
 
 import static java.lang.Double.MIN_VALUE;
 
-//the average of an array with 10 doubles
+//calculate the average of the values an array with 10 doubles
 public class ArrayAverage {
     public static void main(String[] args) {
         double[] nums =new double [10];

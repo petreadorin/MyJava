@@ -11,7 +11,7 @@ public class FizzBuzz {
         int x = scanner.nextInt();
 
         for (int i = 1; i <= x; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
+            if (i % 3 == 0 && i % 5 == 0) {             //the most specific condition goes first!!!
                 System.out.print("FizzBuzz" + " , ");
 
             } else if (i % 3 == 0) {

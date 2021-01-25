@@ -1,6 +1,6 @@
 package problems;
 
-//display
+//(EARLY!) A Help display of what i learned so far
 public class Help {
     public static void main(String[] args)
             throws java.io.IOException {

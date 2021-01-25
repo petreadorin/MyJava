@@ -1,5 +1,6 @@
 package problems;
 
+//An extended Help display of what i learned so far.
 public class HelpFinal {
     public static void main(String[] args)
             throws java.io.IOException {

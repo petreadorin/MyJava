@@ -2,7 +2,7 @@ package problems;
 
 import java.util.Scanner;
 
-//how far away it strikes? 1100feet/second  .input seconds away from
+//How far away it strikes? 1100feet/second  .input seconds away from
 public class LightningStrike {
     public static void main(String[]args){
         double distance;

@@ -1,5 +1,6 @@
 package problems;
 
+//Transform from lowercase to uppercase and viceversa, using ASCII.terminate when you inout '.' :
 public class LowerUpperCase {
     public static void main(String[] args)
             throws java.io.IOException {
