@@ -9,9 +9,9 @@ public class ErrorInfo {
     };
     int[] howbad = {3, 3, 2, 4};
 
-    Error getErrorInfo(int i) {
-        if(i >=0 & i< msgs.length)
-            return new Error(msgs[i], howbad[i]);
+   public  Error getErrorInfo(int index) {
+        if(index >=0 & index< msgs.length)
+            return new Error(msgs[index], howbad[index]);
         else
             return new Error("Invalid Error Code", 0);
     }

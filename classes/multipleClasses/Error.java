@@ -1,11 +1,20 @@
 package classes.multipleClasses;
 
 public class Error {
-    String msg;     //contains the error message
-    int severity;   //contains the severity value
+    private String _msg;     //contains the error message
+    private int _severity;   //contains the severity value
 
-    Error(String m, int s) {
-        msg = m;
-        severity = s;
+    public Error(String message, int severity) {
+        _msg = message;
+        _severity = severity;
     }
+
+    public String Message() {
+      return _msg;
+    }
+
+    public int Severity() {
+        return _severity;
+    }
+
 }
