@@ -1,7 +1,7 @@
 package problems;
 
-//how many cubic inches are in a cube x mile long?; 1 mile =63360 inch
 
+//how many cubic inches are in a cube x mile long?;
 import java.util.Scanner;
 
 public class CubicInches {

@@ -2,6 +2,8 @@ package problems;
 
 import java.util.Scanner;
 
+//input a line of characters with ' ' (space) at intervals of you choosing.
+// calculate the number of spaces in the text!
 public class CharacterRead {
     public static void main(String[] args) {
         int spaceCount = 0;

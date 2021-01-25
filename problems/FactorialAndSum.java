@@ -2,7 +2,7 @@ package problems;
 
 import java.util.Scanner;
 
-// Sum and factorial result of X numbers;
+// Sum and factorial result of number X;
 public class FactorialAndSum {
     public static void main(String[] args) {
         int sum = 0;

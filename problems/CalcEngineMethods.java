@@ -1,7 +1,7 @@
 package problems;
 
 import java.util.Arrays;
-
+//Various Operations
 public class CalcEngineMethods {
     public static void main(String[] args) {
         double[] leftVals = {100.0d, 25.0d, 225.0d, 11.0d};
