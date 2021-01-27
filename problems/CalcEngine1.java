@@ -11,7 +11,7 @@ public class CalcEngine1 {
             case "addition":
                 result = value1 + value2;
                 break;
-            case "substraction":
+            case "subtraction":
                 result = value1 - value2;
                 break;
             case "multiply":

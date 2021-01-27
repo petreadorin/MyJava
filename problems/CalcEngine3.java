@@ -2,14 +2,13 @@ package problems;
 
 import java.util.Arrays;
 
-//CalcEngine v0.3
-public class CalcEngine2 {
+public class CalcEngine3 {
     public static void main(String[] args) {
-        double[] leftVals = {100.0d, 25.0d, 225.0d, 11.0d};
-        double[] rightVals = {50.0d, 92.0d, 17.0d, 3.0d};
-        String[] opCode = {"addition", "subtraction", "multiply", "divide"};
-        double[] result = new double[opCode.length];
-        for (int i = 1; i < opCode.length; i++) {
+        double[] leftVals= {100.0d,25.0d,225.0d,11.0d};
+        double[] rightVals={50.0d,92.0d,17.0d,3.0d};
+        String[] opCode = {"addition","subtraction","multiply","divide" };
+        double[] result =new double[opCode.length];
+        for(int i=1;i<opCode.length;i++){
             switch (opCode[i]) {
                 case "addition":
                     result[i] = leftVals[i] + rightVals[i];
@@ -30,7 +29,8 @@ public class CalcEngine2 {
             }
 
         }
-        System.out.println(Arrays.toString(result));
+        for(double currentResult : result)
+            System.out.println(currentResult);
 
     }
 }
