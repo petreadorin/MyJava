@@ -3,7 +3,7 @@ package classes.examples;
 public class TestObject {
     int a, b;
 
-    TestObject(int i, int j) {
+    public TestObject(int i, int j) {
         a = i;
         b = j;
     }

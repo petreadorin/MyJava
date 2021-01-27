@@ -5,7 +5,7 @@ public class Power {
     int e;
     double val;
 
-    Power( double base, int exp) {
+    public Power( double base, int exp) {
         b = base;
         e = exp;
 

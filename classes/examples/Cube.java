@@ -6,7 +6,7 @@ public class Cube {
         int volume;
 
         //Class constructor
-        Cube(int i, int j, int k) {
+        public Cube(int i, int j, int k) {
             a = i;
             b = j;
             c = k;
