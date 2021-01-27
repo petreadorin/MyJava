@@ -1,7 +1,7 @@
 package classes.problems;
 
 public class Help {
-    void helpOn(int what) {
+    public void helpOn(int what) {
         switch (what) {
             case '1':
                 System.out.println("The if: ");
@@ -54,7 +54,7 @@ public class Help {
         System.out.println();
     }
 
-    void showMenu() {
+    public void showMenu() {
         System.out.println("Help on: ");
         System.out.println("1.if");
         System.out.println("2.switch");
@@ -66,7 +66,7 @@ public class Help {
         System.out.print("Choose one (q to quit): ");
     }
 
-    boolean isValid(int ch) {
+    public boolean isValid(int ch) {
         return !(ch < '1' | ch > '7' & ch != 'q');
     }
 }

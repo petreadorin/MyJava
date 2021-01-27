@@ -6,7 +6,7 @@ public class ClassAccessModifiers {
     int gamma;          //default acces
 
     //Methods of a class can acces private members IN the same class
-    void setAlpha(int a) {
+    public void setAlpha(int a) {
         alpha = a;
     }
 

@@ -11,7 +11,7 @@ public class Stack {
     }
 
     //Construct a stack from a stack
-    Stack(Stack ob) {
+    public Stack(Stack ob) {
         tos = ob.tos;
         stck = new char[ob.stck.length];  //new type char stack
 
@@ -21,7 +21,7 @@ public class Stack {
     }
 
     //Construct a stack with initial values.
-    Stack(char a[]) {
+    public Stack(char a[]) {
         stck = new char[a.length];
 
         for (int i = 0; i < a.length; i++)
@@ -29,7 +29,7 @@ public class Stack {
     }
 
     //Push characters onto the stack.
-    void push(char ch) {
+    public void push(char ch) {
         if (tos == stck.length) {
             System.out.println("Stack is full");
             return;
@@ -39,7 +39,7 @@ public class Stack {
     }
 
     //Pop a character from the stack.
-    char pop() {
+    public char pop() {
         if (tos == 0) {
             System.out.println("Stack is empty");
             return (char) 0;

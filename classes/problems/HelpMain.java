@@ -6,7 +6,7 @@ public class HelpMain {
         char choice, ignore;
         Help helpobj = new Help();      //implement helpobj as an instance of the Help class
 
-        for ( ; ; ) {
+        for (; ; ) {
             do {
                 helpobj.showMenu();    //acceses the showMenu method from Help class
 

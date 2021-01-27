@@ -11,11 +11,11 @@ public class Vehicle {
         mpg = m;
     }
 
-    int range() {
+    public int range() {
         return mpg * fuelCap;
     }
 
-    double fuelneeded(int miles) {
+    public double fuelneeded(int miles) {
         return (double) miles / mpg;
     }
 

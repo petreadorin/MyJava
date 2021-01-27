@@ -1,16 +1,17 @@
 package classes.problems;
 
+//Create a non-circular Queue class.
 public class Queue {  //in class we only define the variables
     char q[];        //array that holds the queue
     int putLoc, getLoc;
 
-    Queue(int size) {         //queue constructor
+    public Queue(int size) {         //queue constructor
         q = new char[size];  //allocate memory in constructor, because in class we only define the variables
         putLoc = getLoc = 0;
     }
 
     //put a character in queue
-    void put(char ch) {
+    public void put(char ch) {
         if (putLoc == q.length) {
             System.out.println("The queue is full.");
         }
@@ -18,7 +19,7 @@ public class Queue {  //in class we only define the variables
     }
 
     //get a character from the queue
-    char get() {
+    public char get() {
         if (getLoc == putLoc) {
             System.out.println("The queue is empty.");
             return (char) 0;

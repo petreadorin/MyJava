@@ -38,7 +38,7 @@ public class QueueOverloadMain {
 
         System.out.print("Contents of q3: ");
         for (i = 0; i < 10; i++) {
-            ch =q3.get();
+            ch = q3.get();
             System.out.print(ch);
         }
     }

@@ -1,8 +1,8 @@
 package classes.problems;
-//factor  =  divizor
+//check if a number is factor of another number
 public class Factor {
 
-    boolean isFactor(int a, int b){
+   public boolean isFactor(int a, int b){
         return b % a == 0;
     }
 }

@@ -1,10 +1,11 @@
 package classes.problems;
+
 //PROPERLY USED QUEUE (PRIVATE DOESNT CHANGE THE OUTCOME)
-public class QueuePrivate {
+public class QueuePrivateClass {
     private char q[];        //array that holds the queue
     private int putLoc, getLoc;
 
-    QueuePrivate(int size) {         //queue constructor
+    public QueuePrivateClass(int size) {         //queue constructor
         q = new char[size];  //allocate memory in constructor, because in class we only define the variables
         putLoc = getLoc = 0;
     }

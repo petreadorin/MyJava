@@ -9,7 +9,7 @@ public class BackwardsString {
     }
 
     //this method calls itself until it "reaches length-1"
-    void backwards(int index) {
+    public void backwards(int index) {
         if (index != str.length() - 1)
             backwards(index + 1);  //the index gets incremented by 1 until the char reaches the end of the string
 

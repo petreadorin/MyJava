@@ -9,7 +9,7 @@ public class ErrorMessages {
     };
 
     //return the error message
-    String getErrorMsg(int i) {
+    public String getErrorMsg(int i) {
         if (i >= 0 & i < msgs.length)
             return msgs[i];
         else
