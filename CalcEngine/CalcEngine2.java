@@ -1,4 +1,4 @@
-package problems;
+package CalcEngine;
 
 import java.util.Arrays;
 

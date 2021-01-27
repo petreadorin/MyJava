@@ -1,4 +1,4 @@
-package problems;
+package CalcEngine;
 
 //CalcEngine v0.2
 public class CalcEngine1 {
