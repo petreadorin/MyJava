@@ -3,6 +3,8 @@ package CalcEngine;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//calcEngine v0.6
+//added String support
 public class CalcEngine6StringSupport {
     public static void main(String[] args) {
         double[] leftVals = {100.0d, 25.0d, 225.0d, 11.0d};
