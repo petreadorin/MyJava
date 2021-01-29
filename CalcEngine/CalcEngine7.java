@@ -2,9 +2,9 @@ package CalcEngine;
 
 import java.util.Scanner;
 
-//calcEngine v0.6
-//added String support
-public class CalcEngine6StringSupport {
+//CalcEngine v0.7
+//with StringBuilder implemented
+public class CalcEngine7 {
     public static void main(String[] args) {
         double[] leftVals = {100.0d, 25.0d, 225.0d, 11.0d};
         double[] rightVals = {50.0d, 92.0d, 17.0d, 3.0d};
@@ -44,8 +44,37 @@ public class CalcEngine6StringSupport {
         double leftVal = valueFromWord(parts[1]);
         double rightVal = valueFromWord(parts[2]);
         double result = execute(opCode, leftVal, rightVal);
-        System.out.println(result);
+        displayResult(opCode, leftVal, rightVal, result);
+    }
 
+    //
+    private static void displayResult(char opCode, double leftVal, double rightVal, double result) {
+        char symbol = symbolFromOpCode(opCode);  //local variable that stores the symbol "symbolFromOpCode" translates
+        StringBuilder builder = new StringBuilder();
+        builder.append(leftVal);
+        builder.append(" ");
+        builder.append(symbol);
+        builder.append(" ");
+        builder.append(rightVal);
+        builder.append(" = ");
+        builder.append(result);
+        String output = builder.toString();
+        System.out.println(output);
+
+    }
+
+    //method that transforms the opCode we input(and the program transforms to char), into a corresponding symbol
+    private static char symbolFromOpCode(char opCode) {
+        char[] opCodes = {'a', 's', 'm', 'd'};   //parralel arrays
+        char[] symbols = {'+', '-', '*', '/'};   //the elements from arra1 correspond to the element from array2
+        char symbol = ' ';
+        for (int i = 0; i < opCodes.length; i++) {
+            if (opCode == opCodes[i]) {
+                symbol = symbols[i];             //symbol takes the value of the corresponding input that we type
+                break;
+            }
+        }
+        return symbol;
     }
 
     //CommandLine arguments:
